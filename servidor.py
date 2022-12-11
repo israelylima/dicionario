@@ -10,6 +10,7 @@ def main():
     try:
         server.bind(('localhost', 60000)) #vinculado host e porta
         server.listen() #servidor escutando
+        print('Servidor foi iniciado e está escutando')
     except:
         print('Não foi possível iniciar o servidor.')
 
